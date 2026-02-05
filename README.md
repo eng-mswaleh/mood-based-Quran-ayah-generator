@@ -33,7 +33,7 @@ It serves as a personalized spiritual reminder, combining simple programming con
 mood-ayah-generator/
 │
 ├── moods.db                # SQLite database storing moods and ayah references
-├── main.py  # Main program logic (fetches ayahs based on mood)
+├── main.py                 # Main program logic (fetches ayahs based on mood)
 └── README.md               # Project documentation
 
 ## Project documentation
@@ -53,19 +53,19 @@ Output
 6. The interface remains open until you type in 'quit' to exit the interface
 
 ## Future Improvements
-o Add more moods and ayahs to the database.
-o Display ayahs in both Arabic and English.
-o Save user moods and ayahs shown into a file for reflection history.
-o Build a graphical interface (Tkinter or PyQt).
+- Add more moods and ayahs to the database.
+- Display ayahs in both Arabic and English.
+- Save user moods and ayahs shown into a file for reflection history.
+- Build a graphical interface (Tkinter or PyQt).
 
 ## Learning Goals
 This project helps beginners practice:
-o	Databases (SQLite) → storing and retrieving data.
-o	SQL queries → selecting, inserting, and deleting rows.
-o	Random module → picking one ayah at random.
-o	Requests library → calling an external API.
-o	Loops & conditionals → keeping the program interactive.
-o	Functions → organizing code neatly.
+- Databases (SQLite) → storing and retrieving data.
+- SQL queries → selecting, inserting, and deleting rows.
+- Random module → picking one ayah at random.
+- Requests library → calling an external API.
+- Loops & conditionals → keeping the program interactive.
+- Functions → organizing code neatly.
 
 ## Why It’s Unique
 Unlike generic beginner projects, this one is spiritual and personalized.
