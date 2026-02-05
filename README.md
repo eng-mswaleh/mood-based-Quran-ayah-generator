@@ -44,12 +44,17 @@ mood-ayah-generator/
    ```bash
    pip install requests
 4. Run the program:
+   ```bash
      python main.py
 5.  Enter your mood when prompted.
         Example:
+```bash
 Enter your mood (or type 'quit' to exit): happy
+
 Output
+```bash
 10:58 - Say, "In the bounty of Allah and in His mercy—in that let them rejoice; it is better than what they accumulate."
+
 6. The interface remains open until you type in 'quit' to exit the interface
 
 ## Future Improvements
