@@ -53,7 +53,6 @@ Enter your mood (or type 'quit' to exit): happy
 
 Output
 
-```bash
 10:58 - Say, "In the bounty of Allah and in His mercy—in that let them rejoice; it is better than what they accumulate."
 
 
