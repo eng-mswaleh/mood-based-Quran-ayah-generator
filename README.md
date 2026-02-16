@@ -7,7 +7,7 @@ It serves as a personalized spiritual reminder, combining simple programming con
 - Stores moods and ayah references in a database (SQLite).
 - Asks the user to input their mood.
 - Fetches a random ayah reference linked to that mood.
-- Calls the Qur’an API to retrieve the ayah text and translation.
+- Calls the Qur’an API to retrieve the ayah text.
 - Keeps running until the user chooses to quit.
 - Easy to expand by adding more moods and ayahs.
 - Daily Ayah Reminder → Shows one random ayah when the program starts.
