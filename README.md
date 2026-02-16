@@ -10,6 +10,11 @@ It serves as a personalized spiritual reminder, combining simple programming con
 - Calls the Qur’an API to retrieve the ayah text and translation.
 - Keeps running until the user chooses to quit.
 - Easy to expand by adding more moods and ayahs.
+- Daily Ayah Reminder → Shows one random ayah when the program starts.
+- “Today’s Ayah” Section → Displayed at the top with the current date.
+- Mood History Tracker → Counts how many times each mood is searched.
+- Save user moods and ayahs shown into a file for reflection history.
+- a graphical interface (GUI) built with Tkinter.
 
 ## How It Works
 1. **Database Setup**  
@@ -27,7 +32,7 @@ It serves as a personalized spiritual reminder, combining simple programming con
    - Program queries the database for ayahs linked to that mood.
    - Picks one ayah at random.
    - Calls the Qur’an API to fetch the ayah text in English.
-   - Displays the ayah reference and translation.
+   - Displays the ayah reference.
 
 ## Project Structure
 mood-ayah-generator/
@@ -61,8 +66,8 @@ Output
 ## Future Improvements
 - Add more moods and ayahs to the database.
 - Display ayahs in both Arabic and English.
-- Save user moods and ayahs shown into a file for reflection history.
-- Build a graphical interface (Tkinter or PyQt).
+- Include translation of the verses
+- Include other search criteria
 
 ## Learning Goals
 This project helps beginners practice:
@@ -72,6 +77,8 @@ This project helps beginners practice:
 - Requests library → calling an external API.
 - Loops & conditionals → keeping the program interactive.
 - Functions → organizing code neatly.
+- use of dunder variables
+- Use of tkinter for building the GUI
 
 ## Why It’s Unique
 Unlike generic beginner projects, this one is spiritual and personalized.
